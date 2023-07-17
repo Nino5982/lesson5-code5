@@ -14,6 +14,7 @@ nav{
     left: 350px;
     width: 1220px;
     height: 65px;
+    
 }
 /* logo */
 .logo-wraper{
@@ -57,4 +58,95 @@ nav{
     font-family: 'Cabin';
     font-size: 18px;
     font-weight: 600;
+}
+/* text setion  */
+
+.text-section{
+    width: 1220px;
+    height: 510px;
+    position: relative;
+    top: 254px;
+    left: 350px;
+}
+.title-wrap{
+    position: absolute;
+    left: 467px;
+    width: 283px;
+}
+.title{
+    display: inline-block;
+    width: 283px;
+    text-align: center;
+    color: #37393F;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.main-title{
+    color: #37393F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.4px;
+}
+.content-wrap{
+    position: absolute;
+    top: 127px;
+    width: 1220px;
+}
+.content-bar{
+display: inline-block;
+width: 386px;
+padding: 58px 43px;
+background-color: #F4F4F4;
+}
+.content-text-wrap h2{
+    color: #37393F;
+text-align: center;
+font-family: Poppins;
+font-size: 25px;
+font-weight: 600;
+line-height: 31.75px;
+margin-bottom: 16px;
+}
+.content-text-wrap p{
+    color: #7D7D7D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height:  26.314px;
+    margin-bottom: 37px;
+}
+
+.link-testimonials{
+    display: inline-block;
+    width: 300px;
+    color: #6B77E5;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    margin: 0 auto;
+}
+/* margin between bars */
+.margin-set{
+    margin: 0 27px;
+}
+/* icons centering */
+.icon-wrap{
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+}
+
+
+/* presentation section */
+presentation-section{
+    position: relative;
+    top: 825px;
+
 }
