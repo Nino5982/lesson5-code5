@@ -15,7 +15,14 @@ body{
     width: 100%;
     height: 200px;
     background-color: #FFFFFF;
-    padding: 35px 0px 0 350px;
+    /* padding: 35px 0px 0 350px; */
+}
+.header-wrap{
+    position: absolute;
+    top:35px;
+    left: 350px;
+    width: 1220px;
+    height: 65px;
 }
 
 /* logo */
