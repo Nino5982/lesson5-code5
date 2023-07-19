@@ -1,6 +1,5 @@
 body{
     width: 1920px;
-
 }
 /* merged display inline blocks */
 .inl-block{
@@ -11,35 +10,38 @@ body{
 .header{
     position: fixed;
     z-index: 1000;
-    top: 0;
-    left: 350px;
-    width: 1220px;
+    top: 0px;
+    left:0px;
+    width: 100%;
     height: 200px;
     background-color: #FFFFFF;
-     padding-top: 35px; 
+    padding: 35px 0px 0 350px;
 }
 
 /* logo */
 .logo-wraper{
-   /* width: 197px; */
-   /* height: 65px; */
-   margin-right: 195px;
+    height: 65px;
+    margin-right: 195px;
+    vertical-align: middle;
+}
+.logo-wraper img{
+    vertical-align: middle;
+}
+.logo{
     color: #37393F;
-    font-family: 'Poppins';
+    font-family:'Poppins';
     font-size: 25px;
     font-weight: 700;
-    vertical-align: middle;
+    line-height: 38px;
 }
 .logos-span{
     color: #6B77E5;
-    vertical-align: middle;
 }
 
 /* navigation links */
 .navigation{
     width: 641px;
-    /* height: 65px; */
-    vertical-align: middle;
+    height: 65px;
 }
 
 .nav-links{
@@ -67,24 +69,14 @@ body{
     font-weight: 600;
     vertical-align: middle;
 }
-/* text setion  */
 
-.text-section{
-    width: 1220px;
-    position: relative;
-    top: 254px;
-    left: 350px;
-}
+/* section titles */
 .title-wrap{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    text-align: center;
 }
 .title{
     display: inline-block;
-    width: 283px;
-    text-align: center;
+    /* width: 283px; */
     color: #37393F;
     font-family: Inter;
     font-size: 18px;
@@ -93,15 +85,22 @@ body{
 }
 .main-title{
     color: #37393F;
-    text-align: center;
     font-family: Poppins;
     font-size: 40px;
     font-weight: 700;
     line-height: 48.4px;
 }
+/* პირველი სექცია */
+.firs-section{
+    width: 1220px;
+    /* height: 510px; */
+    position: relative;
+    top: 254px;
+    left: 350px;
+}
 .content-wrap{
     position: absolute;
-    top: 127px;
+    top: 122px;
     width: 1220px;
 }
 .content-bar{
@@ -140,53 +139,41 @@ body{
     font-weight: 600;
     margin: 0 auto;
 }
-/* margin between bars */
+        /* margin between bars */
 .margin-set{
     margin: 0 27px;
 }
-/* icons centering */
+        /* icons centering */
 .icon-wrap{
     display: inline-block;
     width: 300px;
     text-align: center;
     margin-top: 10px;
-
 }
-/* presentation section */
-.presentation-section{
+/*  */
+.second-section{
     position: relative;
     top: 825px;
     width: 100%;
     height: 557px;
     background-image: url(../images/photos/main-image.png);
 }
-.presentation-content{
+.content{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 511px;
-
+    text-align: center;
+    }
+.section-text{
     color: #37393F;
     font-family: Inter;
     font-size: 18px;
-    text-align: center;
-}
-.present-title{
-    font-weight: 500;
-    margin-bottom: 16px;
-}
-.resentation-header{
-    font-family: Poppins;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 48.4px;
-    margin-bottom:21px;
-}
-.presentation-content p{
+    font-style: normal;
     font-weight: 400;
-    margin-bottom: 47px;
     line-height: 26px;
+    margin: 21px 0 47px;
 }
 .play-link{
     position: relative;
@@ -201,5 +188,49 @@ body{
     left:50%;
     top:50%;
     transform:translate(-50%, -50%);
+}
+
+/*  third section */
+.third-section{
+    position: relative;
+    top: 957px;
+    left: 348px;
+    width: 1220px;
+    height: 659px;
+}
+.team-photos{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.profile-card{
+    position: relative;
+}
+.member-name{
+    width: 341px;
+    padding: 24px 60px;
+    background-color: #FFF;
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%,-93%);
+}
+.name{
+    color: #37393F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.position{
+    color: #7D7D7D;
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24.334px;
 }
 
