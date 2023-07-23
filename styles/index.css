@@ -4,10 +4,15 @@
 .header-wrap{
   position: fixed;
   z-index: 99999;
-  top: 53px;
-  left: 350px;
-  width: max-content;
+  top: 0;
+  left: 0;
   background-color: #fff;
+  padding: 53px;
+  width: 100%;
+}
+.header{
+width: max-content;
+margin: auto;
 }
 /* logo */
 .logo-wraper {
@@ -29,13 +34,6 @@
 .logos-span {
   color: #6b77e5;
 }
-/* navigation links */
-/* .nav{
-  width: 825px;
-} */
-/* .navigation {
-  width: 601px;
-} */
 ul li{
   display: inline-block;
   margin-right: 24px;
