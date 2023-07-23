@@ -1,245 +1,224 @@
-body{
-    width: 1920px;
-}
-/* merged display inline blocks */
-.inl-block{
-    display: inline-block;
-}
-
-/* fixed navigation bar */
-.header{
-    position: fixed;
-    z-index: 1000;
-    top: 0px;
-    left:0px;
-    width: 100%;
-    height: 200px;
-    background-color: #FFFFFF;
-    vertical-align: middle;
-    /* padding: 35px 0px 0 350px; */
+.inl-block {
+  display: inline-block;
 }
 .header-wrap{
-    position: absolute;
-    top:35px;
-    left: 350px;
-    width: 1220px;
-    height: 65px;
-    vertical-align: middle;
+  position: fixed;
+  z-index: 99999;
+  top: 53px;
+  left: 350px;
+  width: max-content;
+  background-color: #fff;
 }
-
 /* logo */
-.logo-wraper{
-    height: 65px;
-    margin-right: 195px;
-    vertical-align: middle;
+.logo-wraper {
+  /* width: 200px; */
+  /* height: 65px; */
+  margin-right: 195px;
+  vertical-align: middle;
 }
-.logo-wraper img{
-    vertical-align: middle;
+.logo-wraper img {
+  vertical-align: middle;
 }
-.logo{
-    color: #37393F;
-    font-family:'Poppins';
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 38px;
+.logo {
+  color: #37393f;
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 38px;
 }
-.logos-span{
-    color: #6B77E5;
+.logos-span {
+  color: #6b77e5;
 }
-
 /* navigation links */
-.navigation{
-    width: 641px;
-    height: 65px;
+/* .nav{
+  width: 825px;
+} */
+/* .navigation {
+  width: 601px;
+} */
+ul li{
+  display: inline-block;
+  margin-right: 24px;
+}
+.nav-links {
+  color: #37393f;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  /* margin-right: 40px; */
+  vertical-align: middle;
 }
 
-.nav-links{
-    color: #37393F;
-    text-align: center;
-    font-family: 'Inter';
-    font-size: 18px;
-    font-weight: 400;
-    margin-right: 40px;
-    vertical-align: middle;
-
+.consulting-div {
+  /* width: 184px; */
+  height: 65px;
+  padding: 21px 35px 22px 35px;
+  background-color: #6b77e5;
+  vertical-align: middle;
 }
-.consulting-div{
-    width: 184px;
-    height: 65px;
-    padding: 21px 35px 22px 35px;
-    background-color: #6B77E5;
-    vertical-align: middle;
+.consulting-div a {
+  color: #fff;
+  text-align: center;
+  font-family: "Cabin";
+  font-size: 18px;
+  font-weight: 600;
+  vertical-align: middle;
 }
-.consulting-div a{
-    color: #FFF;
-    text-align: center;
-    font-family: 'Cabin';
-    font-size: 18px;
-    font-weight: 600;
-    vertical-align: middle;
-}
-
 /* section titles */
-.title-wrap{
-    text-align: center;
+.title-wrap {
+  text-align: center;
+  margin-bottom: 41px;
 }
-.title{
-    display: inline-block;
-    /* width: 283px; */
-    color: #37393F;
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 16px;
+.title {
+  display: inline-block;
+  /* width: 283px; */
+  color: #37393f;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 16px;
 }
-.main-title{
-    color: #37393F;
-    font-family: Poppins;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 48.4px;
+.main-title {
+  color: #37393f;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48.4px;
 }
-/* პირველი სექცია */
-.firs-section{
-    width: 1220px;
-    /* height: 510px; */
-    position: relative;
-    top: 254px;
-    left: 350px;
+.firs-section {
+  width: 1220px;
+  margin: 253px auto 0;
 }
-.content-wrap{
-    position: absolute;
-    top: 122px;
-    width: 1220px;
+.content-wrap {
+   width: max-content;
 }
-.content-bar{
-    display: inline-block;
-    width: 386px;
-    padding: 58px 43px;
-    background-color: #F4F4F4;
+.content-bar {
+  display: inline-block;
+  width: 386px;
+  padding: 58px 43px;
+  background-color: #f4f4f4;
 }
-.content-text-wrap h2{
-    color: #37393F;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 25px;
-    font-weight: 600;
-    line-height: 31.75px;
-    margin-bottom: 16px;
+.content-text-wrap h2 {
+  color: #37393f;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 31.75px;
+  margin-bottom: 16px;
 }
-.content-text-wrap p{
-    color: #7D7D7D;
-    text-align: center;
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 400;
-    line-height:  26.314px;
-    margin-bottom: 37px;
+.content-text-wrap p {
+  color: #7d7d7d;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26.314px;
+  margin-bottom: 37px;
 }
 
-.link-testimonials{
-    display: inline-block;
-    width: 300px;
-    color: #6B77E5;
-    text-align: center;
-    font-family: Inter;
-    font-size: 18px;
-    line-height: 26px;
-    font-weight: 600;
-    margin: 0 auto;
+.link-testimonials {
+  display: inline-block;
+  width: 300px;
+  color: #6b77e5;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+  margin: 0 auto;
 }
-        /* margin between bars */
-.margin-set{
-    margin: 0 27px;
+/* margin between bars */
+.margin-set {
+  margin: 0 27px;
 }
-        /* icons centering */
-.icon-wrap{
-    display: inline-block;
-    width: 300px;
-    text-align: center;
-    margin-top: 10px;
+/* icons centering */
+.icon-wrap {
+  display: inline-block;
+  width: 300px;
+  text-align: center;
+  margin-top: 10px;
 }
 /*  */
-.second-section{
-    position: relative;
-    top: 825px;
-    width: 100%;
-    height: 557px;
-    background-image: url(../images/photos/main-image.png);
+.second-section {
+  position: relative;
+  top: 60px;
+  height: 557px;
+  background-image: url(../images/photos/main-image.png);
 }
-.content{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 511px;
-    text-align: center;
-    }
-.section-text{
-    color: #37393F;
-    font-family: Inter;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-    margin: 21px 0 47px;
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 511px;
+  text-align: center;
 }
-.play-link{
-    position: relative;
-    display: inline-block;
-    width: 64.5px;
-    height: 64.5px;
-    background-color: #6B77E5;
-    border-radius: 50%;
+.section-text {
+  color: #37393f;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 21px auto 47px;
 }
-.play-link a{
-    position:absolute;
-    left:50%;
-    top:50%;
-    transform:translate(-50%, -50%);
+.play-link {
+  position: relative;
+  display: inline-block;
+  width: 64.5px;
+  height: 64.5px;
+  background-color: #6b77e5;
+  border-radius: 50%;
 }
-
+.play-link a {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 /*  third section */
-.third-section{
-    position: relative;
-    top: 957px;
-    left: 348px;
-    width: 1220px;
-    height: 659px;
+.third-section {
+  /* position: relative;
+  top: 957px;
+  left: 348px; */
+  width: 1220px;
+  height: 659px;
+  margin: 130px auto;
 }
-.team-photos{
-    position: absolute;
-    bottom: 0;
-    left: 0;
+.team-photos {
+  /* position: absolute;
+  bottom: 0;
+  left: 0; */
+  margin: 41px auto;
 }
-.profile-card{
-    position: relative;
+.profile-card {
+  position: relative;
 }
-.member-name{
-    width: 341px;
-    padding: 24px 60px;
-    background-color: #FFF;
-    position: absolute;
-    top: 93%;
-    left: 50%;
-    transform: translate(-50%,-93%);
+.member-name {
+  width: 341px;
+  padding: 24px 60px;
+  background-color: #fff;
+  position: absolute;
+  bottom:22px;
+  left: 22px;
 }
-.name{
-    color: #37393F;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+.name {
+  color: #37393f;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
-.position{
-    color: #7D7D7D;
-text-align: center;
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 24.334px;
+.position {
+  color: #7d7d7d;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.334px;
 }
-
