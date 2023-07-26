@@ -1,7 +1,10 @@
 .inl-block {
   display: inline-block;
 }
-.header-wrap{
+header {
+  height: 171px;
+}
+.header-wrap {
   position: fixed;
   z-index: 99999;
   top: 0;
@@ -10,9 +13,9 @@
   padding: 53px;
   width: 100%;
 }
-.header{
-width: max-content;
-margin: auto;
+.header {
+  width: max-content;
+  margin: auto;
 }
 /* logo */
 .logo-wraper {
@@ -34,7 +37,7 @@ margin: auto;
 .logos-span {
   color: #6b77e5;
 }
-ul li{
+ul li {
   display: inline-block;
   margin-right: 24px;
 }
@@ -84,12 +87,13 @@ ul li{
   font-weight: 700;
   line-height: 48.4px;
 }
+/*  */
 .firs-section {
   width: 1220px;
-  margin: 253px auto 0;
+  margin: 60px auto;
 }
 .content-wrap {
-   width: max-content;
+  width: max-content;
 }
 .content-bar {
   display: inline-block;
@@ -141,7 +145,6 @@ ul li{
 /*  */
 .second-section {
   position: relative;
-  top: 60px;
   height: 557px;
   background-image: url(../images/photos/main-image.png);
 }
@@ -182,7 +185,7 @@ ul li{
   top: 957px;
   left: 348px; */
   width: 1220px;
-  height: 659px;
+  /* height: 659px; */
   margin: 130px auto;
 }
 .team-photos {
@@ -199,7 +202,7 @@ ul li{
   padding: 24px 60px;
   background-color: #fff;
   position: absolute;
-  bottom:22px;
+  bottom: 22px;
   left: 22px;
 }
 .name {
